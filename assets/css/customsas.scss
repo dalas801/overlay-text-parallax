@@ -1,0 +1,50 @@
+// Small tablets and large smartphones (landscape view)
+$mobile-width: 576px;
+
+// Small tablets (portrait view)
+$tablet-width: 768px;
+
+// Tablets and small desktops
+$desktop-width: 1024px;
+
+
+
+
+
+
+.container{
+  text-align: center;
+  max-width: 600px !important;
+  position: relative;
+}
+.containerimage{
+  background-image: url(../img/heroimg.jpg);
+  position: relative;
+  padding-bottom: 100%;
+  z-index: 2;
+  overflow: hidden;
+
+}
+.text{
+  position: absolute;
+  color: #00ffa1;
+  letter-spacing: 5px;
+  top: 50%;
+  font-size:80px ;
+  font-weight: 800;
+  left: 20%;
+    transform: translateY(-50px);
+    white-space: nowrap;
+}
+body{
+  min-height: 2000px;
+  background-color: black !important;
+  overflow-x: hidden;
+}
+.content{
+  margin: 200px 0;
+}
+ .white{
+   color:white;
+ }
+  
