@@ -20,8 +20,6 @@
   font-size: 80px;
   font-weight: 800;
   left: 20%;
-  -webkit-transform: translateY(-50px);
-          transform: translateY(-50px);
   white-space: nowrap;
 }
 
