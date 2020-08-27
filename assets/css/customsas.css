@@ -36,4 +36,26 @@ body {
 .white {
   color: white;
 }
+
+#contentframe {
+  width: 550px;
+  height: 350px;
+  background-color: salmon;
+  margin: 10em auto;
+  overflow: hidden;
+}
+
+#circle {
+  position: relative;
+  background-color: seagreen;
+  top: 25%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+#circle2 {
+  position: relative;
+  top: 25%;
+}
 /*# sourceMappingURL=customsas.css.map */

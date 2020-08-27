@@ -49,33 +49,26 @@
 					</h2>
 					
 			</div>
+			<div id="contentframe">
+				<div id="circle">
 
-		</div>
-		<script>
-			let para=document.querySelectorAll('.text');
-			let scrollt=false;
-			var count=0;
-			function progress(){
-				scrollt=true;
-				// count+=10;
-			};
-			function raf(){
-				if(scroll){
-					para.forEach((element,index)=>{
-						element.style.transform='translateX('+window.scrollY/7+'px)';
-						// console.log(window.scrollY/8);
-						// if(count>300){
-						// 	count=-700;
-						// }
-					});
+				</div>
+			</div>
+			<div class="container">
+				<div class="containerimage">
+					<h2 class="text"><span class="parallax-title">MADE WITH LOVE</span></h2>
+
+
+				</div>
+				
+					<h2 class="text white">
+						<span class="parallax-title">MADE WITH LOVE</span>
+					</h2>
 					
-					scrollt=false;
-				}
-				requestAnimationFrame(raf);
-			};
-			raf();
-			window.addEventListener('scroll',progress);
-		</script>
+			</div>
+			
+		</div>
+		
 		
 
 	
@@ -86,6 +79,6 @@
 		
 	
 	
-	
+		<script src="assets/js/main.js"></script>
 </body>
 </html>
